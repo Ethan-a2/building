@@ -1,0 +1,12 @@
+{
+  "stage": "01_site_drainage",
+  "scene": "R1_01 Site and drainage / SCHEMATIC",
+  "objects": 26,
+  "checks": {
+    "survey_geometry": false,
+    "stormwater_outfall_confirmed": false,
+    "access_from_west": true
+  },
+  "model": "/media/code/tools/building/b-2/models/01_site_drainage.blend",
+  "preview": "/media/code/tools/building/b-2/previews/01_site_drainage.png"
+}

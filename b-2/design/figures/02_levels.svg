@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">02 / 高差、地坪与入口</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">只表达关系；±0.000、回填高度、挡土尺寸必须由现场测量与设计确定</text>
+<path d="M70 430L1120 550" fill="none" stroke="#667780" stroke-width="5"/>
+<text x="70" y="400" font-size="20" style="fill:#193747">西侧道路（较高）</text>
+<text x="880" y="595" font-size="20" style="fill:#193747">东南低点（约低1m）</text>
+<rect x="300" y="260" width="500" height="160" rx="8" fill="#e7eef0" stroke="#b5c5ca" stroke-width="2"/>
+<path d="M300 420L800 420" fill="none" stroke="#268b87" stroke-width="8"/>
+<text x="350" y="330" font-size="24" style="fill:#193747">主体室内完成面：保持水平</text>
+<text x="352" y="390" font-size="18" style="fill:#193747">基础与地基另设计；不以松填土承载</text>
+<path d="M130 425L290 425" fill="none" stroke="#cf7531" stroke-width="5"/>
+<text x="90" y="470" font-size="19" style="fill:#cf7531">优先平顺接入</text>
+<path d="M800 435L950 450" fill="none" stroke="#3977ae" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M950 450L950 500" fill="none" stroke="#667780" stroke-width="5"/>
+<path d="M950 500L1100 525" fill="none" stroke="#3977ae" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="815" y="205" font-size="21" style="fill:#193747">院地可分级；围墙不默认挡土</text>
+<rect x="50" y="120" width="225" height="165" rx="8" fill="#fff" stroke="#b5c5ca" stroke-width="2"/>
+<text x="66" y="151" font-size="22" style="fill:#193747">先测量</text>
+<text x="66" y="185" font-size="18" style="fill:#667780">道路面 / 沟底</text>
+<text x="66" y="212" font-size="18" style="fill:#667780">宅地四角 / 邻墙脚</text>
+<text x="66" y="239" font-size="18" style="fill:#667780">合法接入口管底</text>
+<rect x="55" y="545" width="660" height="90" rx="8" fill="#fff0de" stroke="#b5c5ca" stroke-width="2"/>
+<text x="71" y="576" font-size="22" style="fill:#193747">轮椅几何校核</text>
+<text x="71" y="610" font-size="18" style="fill:#667780">1m高差 × 12 = 约12m坡段，尚未计平台；5m院深不够直接消化。</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

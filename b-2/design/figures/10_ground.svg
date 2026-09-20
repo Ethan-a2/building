@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">10 / 地面防潮与墙脚</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">构造功能示意；具体层次、材料和厚度由地基、地坪和热工设计确定</text>
+<rect x="90" y="230" width="650" height="48" rx="0" fill="#ddc39e" stroke="#193747" stroke-width="2"/>
+<text x="115" y="261.2" font-size="20" style="fill:#193747">地面饰面与基层</text>
+<rect x="90" y="278" width="650" height="55" rx="0" fill="#ece1bd" stroke="#193747" stroke-width="2"/>
+<text x="115" y="313.75" font-size="20" style="fill:#193747">按设计设置地面保温/设备层</text>
+<rect x="90" y="333" width="650" height="20" rx="0" fill="#5b9eac" stroke="#193747" stroke-width="2"/>
+<text x="115" y="346.0" font-size="20" style="fill:#193747">连续防潮构造</text>
+<rect x="90" y="353" width="650" height="75" rx="0" fill="#bdcbd0" stroke="#193747" stroke-width="2"/>
+<text x="115" y="401.75" font-size="20" style="fill:#193747">结构地坪/稳定基层</text>
+<rect x="90" y="428" width="650" height="65" rx="0" fill="#b5aa90" stroke="#193747" stroke-width="2"/>
+<text x="115" y="470.25" font-size="20" style="fill:#193747">毛细水阻断与分层压实基层</text>
+<rect x="740" y="140" width="130" height="353" rx="0" fill="#dae0dd" stroke="#193747" stroke-width="2"/>
+<path d="M90 340L805 340" fill="none" stroke="#3977ae" stroke-width="7"/>
+<path d="M750 340L750 290" fill="none" stroke="#3977ae" stroke-width="7"/>
+<path d="M870 380L1100 420" fill="none" stroke="#268b87" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="875" y="460" font-size="20" style="fill:#193747">室外找坡排水</text>
+<text x="875" y="489" font-size="20" style="fill:#193747">不得覆盖墙脚防潮层</text>
+<text x="860" y="215" font-size="20" style="fill:#3977ae">墙身防潮连续</text>
+<text x="860" y="244" font-size="20" style="fill:#3977ae">管根与门口收头</text>
+<text x="70" y="570" font-size="21" style="fill:#193747">地下水条件异常时：普通防潮层不能替代设计防水、地基处理及必要的抗浮措施。</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

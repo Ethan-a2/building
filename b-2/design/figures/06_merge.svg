@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">06 / 低成本合户接口</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">仅拆指定非承重填充；梁柱及洞口边构件须先做结构设计</text>
+<text x="70" y="150" font-size="26" style="fill:#193747">分户阶段</text>
+<rect x="70" y="210" width="440" height="260" rx="0" fill="#dce1e0" stroke="#193747" stroke-width="2"/>
+<rect x="190" y="280" width="200" height="190" rx="0" fill="#f5f7f7" stroke="#193747" stroke-width="2"/>
+<rect x="165" y="245" width="250" height="35" rx="0" fill="#839da5" stroke="#193747" stroke-width="2"/>
+<rect x="195" y="285" width="190" height="185" rx="0" fill="#e9ae7b" stroke="#cf7531" stroke-width="2"/>
+<text x="182" y="510" font-size="20" style="fill:#193747">参考净连接宽1.50m</text>
+<text x="80" y="565" font-size="19" style="fill:#193747">管线绕开填充区</text>
+<text x="80" y="593" font-size="19" style="fill:#193747">上下层洞口对应；不临时凿梁柱</text>
+<text x="665" y="150" font-size="26" style="fill:#193747">未来合户</text>
+<rect x="665" y="210" width="440" height="260" rx="0" fill="#dce1e0" stroke="#193747" stroke-width="2"/>
+<rect x="785" y="280" width="200" height="190" rx="0" fill="#f5f7f7" stroke="#193747" stroke-width="2"/>
+<rect x="760" y="245" width="250" height="35" rx="0" fill="#839da5" stroke="#193747" stroke-width="2"/>
+<text x="777" y="510" font-size="20" style="fill:#193747">参考净连接宽1.50m</text>
+<text x="675" y="565" font-size="19" style="fill:#193747">管线绕开填充区</text>
+<text x="675" y="593" font-size="19" style="fill:#193747">上下层洞口对应；不临时凿梁柱</text>
+<path d="M530 370L640 370" fill="none" stroke="#cf7531" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="190" y="330" font-size="23" style="fill:#193747">非承重</text>
+<text x="190" y="362" font-size="23" style="fill:#193747">隔声填充</text>
+<text x="800" y="350" font-size="23" style="fill:#193747">拆填充</text>
+<text x="800" y="382" font-size="23" style="fill:#193747">修饰面</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

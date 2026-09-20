@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">08 / 一层暖气、二层地暖</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">先计算热负荷，再定热源、末端、流量、管径与水力平衡</text>
+<rect x="40" y="250" width="250" height="160" rx="8" fill="#e5ecef" stroke="#b5c5ca" stroke-width="2"/>
+<text x="56" y="281" font-size="22" style="fill:#193747">热源接口</text>
+<text x="56" y="315" font-size="18" style="fill:#667780">能源与设备位置待定</text>
+<text x="56" y="342" font-size="18" style="fill:#667780">不默认放在楼梯间</text>
+<rect x="400" y="125" width="325" height="180" rx="8" fill="#f8e8da" stroke="#b5c5ca" stroke-width="2"/>
+<text x="416" y="156" font-size="22" style="fill:#193747">一层两户散热器</text>
+<text x="416" y="190" font-size="18" style="fill:#667780">分户支路与房间调节</text>
+<text x="416" y="217" font-size="18" style="fill:#667780">明装供回水</text>
+<text x="416" y="244" font-size="18" style="fill:#667780">按选定温度确定散热量</text>
+<rect x="400" y="380" width="325" height="180" rx="8" fill="#f8e8da" stroke="#b5c5ca" stroke-width="2"/>
+<text x="416" y="411" font-size="22" style="fill:#193747">二层两户地暖</text>
+<text x="416" y="445" font-size="18" style="fill:#667780">分户分集水器</text>
+<text x="416" y="472" font-size="18" style="fill:#667780">回路、间距、流量待设计</text>
+<text x="416" y="499" font-size="18" style="fill:#667780">试压、养护、逐步升温</text>
+<path d="M290 300L400 215" fill="none" stroke="#cf7531" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M290 360L400 460" fill="none" stroke="#cf7531" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="790" y="145" width="360" height="355" rx="8" fill="#fff" stroke="#b5c5ca" stroke-width="2"/>
+<text x="806" y="176" font-size="22" style="fill:#193747">温度协调比较</text>
+<text x="806" y="210" font-size="18" style="fill:#667780">方案1</text>
+<text x="806" y="237" font-size="18" style="fill:#667780">末端均按低温供水选型</text>
+<text x="806" y="264" font-size="18" style="fill:#667780"></text>
+<text x="806" y="291" font-size="18" style="fill:#667780">方案2</text>
+<text x="806" y="318" font-size="18" style="fill:#667780">地暖混水及独立控制</text>
+<text x="806" y="345" font-size="18" style="fill:#667780"></text>
+<text x="806" y="372" font-size="18" style="fill:#667780">由热源、负荷、末端决定</text>
+<text x="806" y="399" font-size="18" style="fill:#667780">不是两种末端直接乱并联</text>
+<text x="60" y="625" font-size="20" style="fill:#193747">空置户需要防冻策略；明装水管仍在室内保温边界内；地暖厚度纳入楼梯标高。</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

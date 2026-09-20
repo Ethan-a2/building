@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="780" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">14 / 施工与隐蔽记录</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">下一工序前，把看不见的质量检查好；用楼层、户号、标尺和日期记录</text>
+<rect x="45" y="155" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="61" y="186" font-size="22" style="fill:#193747">01 测量与方案</text>
+<text x="61" y="220" font-size="18" style="fill:#667780">边界 / BM / 出口</text>
+<path d="M300 225L327 225" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="335" y="155" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="351" y="186" font-size="22" style="fill:#193747">02 基础与预埋</text>
+<text x="351" y="220" font-size="18" style="fill:#667780">验槽 / 配筋 / 套管</text>
+<path d="M590 225L617 225" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="625" y="155" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="641" y="186" font-size="22" style="fill:#193747">03 两层结构</text>
+<text x="641" y="220" font-size="18" style="fill:#667780">轴线 / 楼梯 / 合户口</text>
+<path d="M880 225L907 225" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="915" y="155" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="931" y="186" font-size="22" style="fill:#193747">04 屋面与外维护</text>
+<text x="931" y="220" font-size="18" style="fill:#667780">收口 / 排水 / 保温</text>
+<rect x="45" y="390" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="61" y="421" font-size="22" style="fill:#193747">05 管线与湿区</text>
+<text x="61" y="455" font-size="18" style="fill:#667780">试压 / 通水 / 电测</text>
+<path d="M300 460L327 460" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="335" y="390" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="351" y="421" font-size="22" style="fill:#193747">06 饰面与安装</text>
+<text x="351" y="455" font-size="18" style="fill:#667780">净宽 / 防滑 / 扶手</text>
+<path d="M590 460L617 460" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="625" y="390" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="641" y="421" font-size="22" style="fill:#193747">07 分户调试</text>
+<text x="641" y="455" font-size="18" style="fill:#667780">阀表 / 温控 / 串味</text>
+<path d="M880 460L907 460" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="915" y="390" width="255" height="145" rx="8" fill="#e9f0f1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="931" y="421" font-size="22" style="fill:#193747">08 雨雪季回访</text>
+<text x="931" y="455" font-size="18" style="fill:#667780">倒灌 / 冻堵 / 结露</text>
+<text x="60" y="635" font-size="22" style="fill:#193747">归档：隐蔽照片 + 试验数据 + 竣工尺寸 + 回路/阀门表 + 设备说明 + 可拆区标记。</text>
+<text x="60" y="680" font-size="20" style="fill:#193747">现场变更同步图纸、参数和模型；结构、电气、供暖等专项数据由相应设计与检测确定。</text>
+<text x="40" y="758" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">05 / 两层叠合与公共楼梯</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">层间高3.4m暂定；完成面厚度影响首末级；爆炸模型不是实际建筑高度</text>
+<rect x="60" y="140" width="420" height="180" rx="8" fill="#e3eff0" stroke="#b5c5ca" stroke-width="2"/>
+<text x="76" y="171" font-size="22" style="fill:#193747">二层 / 两户 西户</text>
+<text x="76" y="205" font-size="18" style="fill:#667780">厨卫叠合 / 独立入口</text>
+<text x="76" y="232" font-size="18" style="fill:#667780">地暖：每户分集水器</text>
+<rect x="720" y="140" width="420" height="180" rx="8" fill="#f0e8d9" stroke="#b5c5ca" stroke-width="2"/>
+<text x="736" y="171" font-size="22" style="fill:#193747">二层 / 两户 东户</text>
+<text x="736" y="205" font-size="18" style="fill:#667780">厨卫叠合 / 独立入口</text>
+<text x="736" y="232" font-size="18" style="fill:#667780">地暖：每户分集水器</text>
+<rect x="500" y="140" width="200" height="180" rx="8" fill="#dce1e3" stroke="#b5c5ca" stroke-width="2"/>
+<text x="540" y="185" font-size="22" style="fill:#193747">公共平台</text>
+<path d="M540 230L475 230" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M660 230L725 230" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="60" y="390" width="420" height="180" rx="8" fill="#e3eff0" stroke="#b5c5ca" stroke-width="2"/>
+<text x="76" y="421" font-size="22" style="fill:#193747">一层 / 两户 西户</text>
+<text x="76" y="455" font-size="18" style="fill:#667780">厨卫叠合 / 独立入口</text>
+<text x="76" y="482" font-size="18" style="fill:#667780">散热器：每户支路</text>
+<rect x="720" y="390" width="420" height="180" rx="8" fill="#f0e8d9" stroke="#b5c5ca" stroke-width="2"/>
+<text x="736" y="421" font-size="22" style="fill:#193747">一层 / 两户 东户</text>
+<text x="736" y="455" font-size="18" style="fill:#667780">厨卫叠合 / 独立入口</text>
+<text x="736" y="482" font-size="18" style="fill:#667780">散热器：每户支路</text>
+<rect x="500" y="390" width="200" height="180" rx="8" fill="#dce1e3" stroke="#b5c5ca" stroke-width="2"/>
+<text x="540" y="435" font-size="22" style="fill:#193747">公共平台</text>
+<path d="M540 480L475 480" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M660 480L725 480" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M600 480L600 320" fill="none" stroke="#cf7531" stroke-width="7" marker-end="url(#arrow)"/>
+<text x="605" y="365" font-size="21" style="fill:#cf7531">楼梯</text>
+<text x="70" y="625" font-size="22" style="fill:#193747">上下对位：结构 / 厨卫 / 立管；合户时两层各开中部预留口，楼梯继续使用。</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

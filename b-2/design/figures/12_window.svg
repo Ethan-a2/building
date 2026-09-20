@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">12 / 窗边防雨、气密与保温</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">窗型尽量少而重复；整窗性能和安装节点一起采购</text>
+<rect x="320" y="155" width="180" height="355" rx="0" fill="#dce1df" stroke="#193747" stroke-width="2"/>
+<rect x="500" y="155" width="38" height="355" rx="0" fill="#e9b477" stroke="#cf7531" stroke-width="2"/>
+<rect x="320" y="290" width="220" height="45" rx="0" fill="#466979" stroke="#193747" stroke-width="2"/>
+<path d="M535 340L620 360" fill="none" stroke="#3977ae" stroke-width="8"/>
+<path d="M620 360L620 385" fill="none" stroke="#3977ae" stroke-width="5"/>
+<text x="70" y="170" font-size="25" style="fill:#193747">室内</text>
+<text x="850" y="170" font-size="25" style="fill:#193747">室外</text>
+<path d="M210 240L335 290" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="55" y="225" font-size="21" style="fill:#268b87">内侧气密</text>
+<text x="55" y="255" font-size="21" style="fill:#268b87">安装缝连续填充</text>
+<path d="M820 245L538 298" fill="none" stroke="#3977ae" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="825" y="240" font-size="21" style="fill:#3977ae">外侧防雨收口</text>
+<path d="M820 440L538 420" fill="none" stroke="#cf7531" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="825" y="435" font-size="21" style="fill:#cf7531">窗边保温连续</text>
+<text x="825" y="465" font-size="21" style="fill:#cf7531">不留下明显热桥</text>
+<text x="590" y="550" font-size="23" style="fill:#193747">外窗台向外排水并设滴水</text>
+<text x="590" y="582" font-size="23" style="fill:#193747">不得向室内或保温背后渗水</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

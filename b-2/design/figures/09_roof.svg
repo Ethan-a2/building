@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">09 / 屋面、保温和雨雪</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">阶段04只示意简单双坡；坡度、结构、雪荷载、材料与节点未定</text>
+<rect x="180" y="310" width="760" height="200" rx="0" fill="#e6eef0" stroke="#193747" stroke-width="2"/>
+<path d="M145 305L560 140" fill="none" stroke="#193747" stroke-width="10"/>
+<path d="M560 140L975 305" fill="none" stroke="#193747" stroke-width="10"/>
+<path d="M180 325L940 325" fill="none" stroke="#cf7531" stroke-width="12"/>
+<text x="340" y="366" font-size="22" style="fill:#cf7531">冷屋顶示意：顶层水平保温边界</text>
+<path d="M175 335L175 508" fill="none" stroke="#cf7531" stroke-width="8"/>
+<path d="M945 335L945 508" fill="none" stroke="#cf7531" stroke-width="8"/>
+<path d="M300 250L155 310" fill="none" stroke="#3977ae" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M820 250L965 310" fill="none" stroke="#3977ae" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M155 315L155 545" fill="none" stroke="#3977ae" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M965 315L965 545" fill="none" stroke="#3977ae" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="25" y="590" font-size="23" style="fill:#193747">天沟和落水管在自家范围内 → 合法雨水系统；不向邻居或入口落水、落雪。</text>
+<text x="380" y="445" font-size="23" style="fill:#193747">结构构件、保温厚度另设计</text>
+<text x="380" y="477" font-size="23" style="fill:#193747">屋面检修与防风固定一起考虑</text>
+<text x="810" y="130" font-size="18" style="fill:#193747">另比价：简单低坡屋面</text>
+<text x="810" y="157" font-size="18" style="fill:#193747">比较完整系统，不只比瓦或卷材</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

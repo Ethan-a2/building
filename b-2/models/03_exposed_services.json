@@ -1,0 +1,12 @@
+{
+  "stage": "03_exposed_services",
+  "scene": "R1_03 Exposed service routes / schematic",
+  "objects": 1066,
+  "checks": {
+    "service_households": 4,
+    "separate_common_interfaces": true,
+    "installation_pipe_design": false
+  },
+  "model": "/media/code/tools/building/b-2/models/03_exposed_services.blend",
+  "preview": "/media/code/tools/building/b-2/previews/03_exposed_services.png"
+}

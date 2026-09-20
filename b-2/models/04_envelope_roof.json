@@ -1,0 +1,12 @@
+{
+  "stage": "04_envelope_roof",
+  "scene": "R1_04 Envelope and simple roof / actual storey offsets",
+  "objects": 928,
+  "checks": {
+    "display_explode_m": 0,
+    "roof_structurally_designed": false,
+    "roof_and_downpipes_inside_assumed_width": true
+  },
+  "model": "/media/code/tools/building/b-2/models/04_envelope_roof.blend",
+  "preview": "/media/code/tools/building/b-2/previews/04_envelope_roof.png"
+}

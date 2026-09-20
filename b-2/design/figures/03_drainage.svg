@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="760" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">03 / 雨污排放决策</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">东南最低不代表允许向邻居排水；重力、提升方案以出口条件为前提</text>
+<rect x="45" y="130" width="300" height="120" rx="8" fill="#e8f2f7" stroke="#b5c5ca" stroke-width="2"/>
+<text x="61" y="161" font-size="22" style="fill:#193747">雨水收集</text>
+<text x="61" y="195" font-size="18" style="fill:#667780">屋面 / 院子 / 北检修带</text>
+<rect x="45" y="280" width="300" height="110" rx="8" fill="#fff" stroke="#b5c5ca" stroke-width="2"/>
+<text x="61" y="311" font-size="22" style="fill:#193747">沉砂、清掏节点</text>
+<text x="61" y="345" font-size="18" style="fill:#667780">道路侧防倒灌；防冻维护</text>
+<rect x="45" y="430" width="300" height="110" rx="8" fill="#e8f2f7" stroke="#b5c5ca" stroke-width="2"/>
+<text x="61" y="461" font-size="22" style="fill:#193747">东南可检修集水点</text>
+<text x="61" y="495" font-size="18" style="fill:#667780">容量、溢流后果待核算</text>
+<path d="M190 250L190 280" fill="none" stroke="#3977ae" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M190 390L190 430" fill="none" stroke="#3977ae" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M345 475L430 475" fill="none" stroke="#3977ae" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="430" y="140" width="350" height="130" rx="8" fill="#e2f0e9" stroke="#b5c5ca" stroke-width="2"/>
+<text x="446" y="171" font-size="22" style="fill:#193747">A 合法低位出口存在</text>
+<text x="446" y="205" font-size="18" style="fill:#667780">重力排水</text>
+<text x="446" y="232" font-size="18" style="fill:#667780">管底、坡度、回水条件核算</text>
+<rect x="430" y="330" width="350" height="150" rx="8" fill="#fff0de" stroke="#b5c5ca" stroke-width="2"/>
+<text x="446" y="361" font-size="22" style="fill:#193747">B 合法出口需要提升</text>
+<text x="446" y="395" font-size="18" style="fill:#667780">集水坑 + 泵 + 报警</text>
+<text x="446" y="422" font-size="18" style="fill:#667780">考虑停电、冻堵和应急蓄水</text>
+<rect x="430" y="545" width="350" height="115" rx="8" fill="#f7e7e2" stroke="#b5c5ca" stroke-width="2"/>
+<text x="446" y="576" font-size="22" style="fill:#193747">C 无合法出口</text>
+<text x="446" y="610" font-size="18" style="fill:#667780">先协调出口与权属</text>
+<text x="446" y="637" font-size="18" style="fill:#667780">不擅排邻地、不默认渗井</text>
+<path d="M402 475L402 205" fill="none" stroke="#3977ae" stroke-width="2"/>
+<path d="M402 205L430 205" fill="none" stroke="#3977ae" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M402 405L430 405" fill="none" stroke="#3977ae" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M402 475L402 600" fill="none" stroke="#3977ae" stroke-width="2"/>
+<path d="M402 600L430 600" fill="none" stroke="#3977ae" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="825" y="170" width="325" height="360" rx="8" fill="#eee8e3" stroke="#b5c5ca" stroke-width="2"/>
+<text x="841" y="201" font-size="22" style="fill:#193747">污水独立系统</text>
+<text x="841" y="235" font-size="18" style="fill:#667780">厨卫 → 立管 → 检查井</text>
+<text x="841" y="262" font-size="18" style="fill:#667780"></text>
+<text x="841" y="289" font-size="18" style="fill:#667780">市政污水或合规处理设施</text>
+<text x="841" y="316" font-size="18" style="fill:#667780"></text>
+<text x="841" y="343" font-size="18" style="fill:#667780">化粪池需清掏通路</text>
+<text x="841" y="370" font-size="18" style="fill:#667780">尾水去向另行确定</text>
+<text x="841" y="397" font-size="18" style="fill:#667780"></text>
+<text x="841" y="424" font-size="18" style="fill:#667780">严禁与雨水随意混接</text>
+<text x="40" y="738" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="840" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">01 / 场地与入口</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">北朝上；东西面宽12.6m固定；南北1+13+5=19m暂定</text>
+<rect x="205" y="130" width="600" height="605" rx="8" fill="#fff" stroke="#193747" stroke-width="2"/>
+<rect x="205" y="130" width="600" height="33" rx="8" fill="#dfeadc" stroke="#b5c5ca" stroke-width="2"/>
+<text x="360" y="153" font-size="18" style="fill:#193747">北退让1m / 检修、排水</text>
+<rect x="205" y="163" width="600" height="414" rx="8" fill="#e5eef0" stroke="#b5c5ca" stroke-width="2"/>
+<text x="340" y="350" font-size="27" style="fill:#193747">两层主体 12.6 × 13m</text>
+<rect x="205" y="577" width="600" height="158" rx="8" fill="#eee8da" stroke="#b5c5ca" stroke-width="2"/>
+<text x="370" y="610" font-size="23" style="fill:#193747">南院5m</text>
+<rect x="70" y="130" width="95" height="605" rx="8" fill="#d1d9dc" stroke="#b5c5ca" stroke-width="2"/>
+<text x="84" y="200" font-size="22" style="fill:#193747">西侧</text>
+<text x="84" y="231" font-size="22" style="fill:#193747">道路</text>
+<text x="84" y="262" font-size="22" style="fill:#193747"></text>
+<text x="84" y="293" font-size="22" style="fill:#193747">北高</text>
+<text x="84" y="324" font-size="22" style="fill:#193747">↓</text>
+<text x="84" y="355" font-size="22" style="fill:#193747">南低</text>
+<path d="M160 650L300 650" fill="none" stroke="#268b87" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="212" y="694" font-size="18" style="fill:#193747">主要人车入口</text>
+<rect x="653" y="678" width="112" height="10" rx="8" fill="#193747" stroke="#b5c5ca" stroke-width="2"/>
+<text x="650" y="667" font-size="17" style="fill:#193747">影壁可延期</text>
+<path d="M720 775L720 740" fill="none" stroke="#cf7531" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<text x="840" y="724" font-size="20" style="fill:#cf7531">东南门：</text>
+<text x="840" y="753" font-size="20" style="fill:#cf7531">先确认通路权属</text>
+<text x="360" y="120" font-size="20" style="fill:#193747">北侧邻居</text>
+<text x="835" y="350" font-size="20" style="fill:#193747">东侧邻居</text>
+<text x="380" y="780" font-size="20" style="fill:#193747">南侧邻居：不能默认有路</text>
+<path d="M170 420L835 650" fill="none" stroke="#3977ae" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<text x="841" y="470" font-size="20" style="fill:#3977ae">坡向示意</text>
+<text x="841" y="499" font-size="20" style="fill:#3977ae">西高东低</text>
+<text x="841" y="528" font-size="20" style="fill:#3977ae">约1m高差</text>
+<text x="841" y="557" font-size="20" style="fill:#3977ae">待实测标高</text>
+<rect x="787" y="708" width="28" height="28" rx="8" fill="#3977ae" stroke="#b5c5ca" stroke-width="2"/>
+<text x="840" y="650" font-size="20" style="fill:#3977ae">东南集水点</text>
+<text x="840" y="679" font-size="20" style="fill:#3977ae">≠合法排放口</text>
+<text x="40" y="818" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

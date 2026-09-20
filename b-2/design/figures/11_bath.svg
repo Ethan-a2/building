@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="700" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">11 / 改善型卫生间与适老预留</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">参考净尺寸约2.05×1.79m；不是已满足轮椅回转与侧向移位的无障碍卫生间</text>
+<rect x="80" y="145" width="500" height="400" rx="0" fill="#e4eff1" stroke="#193747" stroke-width="2"/>
+<rect x="95" y="160" width="185" height="190" rx="8" fill="#c5dfe6" stroke="#b5c5ca" stroke-width="2"/>
+<text x="117" y="225" font-size="22" style="fill:#193747">淋浴区</text>
+<text x="117" y="256" font-size="22" style="fill:#193747">座椅及扶手</text>
+<text x="117" y="287" font-size="22" style="fill:#193747">可靠基层</text>
+<rect x="410" y="170" width="130" height="160" rx="8" fill="#fff" stroke="#b5c5ca" stroke-width="2"/>
+<text x="430" y="245" font-size="21" style="fill:#193747">坐便器</text>
+<rect x="380" y="400" width="165" height="105" rx="8" fill="#e4d1b1" stroke="#b5c5ca" stroke-width="2"/>
+<text x="404" y="460" font-size="21" style="fill:#193747">洗手台</text>
+<path d="M280 546L375 600" fill="none" stroke="#cf7531" stroke-width="5"/>
+<text x="150" y="627" font-size="20" style="fill:#193747">外开/可紧急开启门；目标净宽需实际复核</text>
+<path d="M315 365L225 380" fill="none" stroke="#3977ae" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M320 420L230 389" fill="none" stroke="#3977ae" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="95" y="410" font-size="20" style="fill:#3977ae">缓坡排水</text>
+<rect x="650" y="160" width="490" height="355" rx="8" fill="#fff" stroke="#b5c5ca" stroke-width="2"/>
+<text x="666" y="191" font-size="22" style="fill:#193747">低成本现在预留</text>
+<text x="666" y="225" font-size="18" style="fill:#667780">防滑地面 / 可靠扶手基层</text>
+<text x="666" y="252" font-size="18" style="fill:#667780">无凸起挡水条需配合截水和找坡</text>
+<text x="666" y="279" font-size="18" style="fill:#667780">门外不积水 / 湿区防水连续</text>
+<text x="666" y="306" font-size="18" style="fill:#667780">冷热水易调 / 照明无明显暗区</text>
+<text x="666" y="333" font-size="18" style="fill:#667780"></text>
+<text x="666" y="360" font-size="18" style="fill:#667780">未来确有轮椅需求时：</text>
+<text x="666" y="387" font-size="18" style="fill:#667780">可再借厨房面积，按实际器具重排。</text>
+<text x="40" y="678" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

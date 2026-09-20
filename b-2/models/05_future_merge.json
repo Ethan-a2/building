@@ -1,0 +1,17 @@
+{
+  "stage": "05_future_merge",
+  "scene": "R1_05 Future merge - infill removed only",
+  "objects": 917,
+  "checks": {
+    "hidden_infill_parts": [
+      "MERGE_INFILL.001",
+      "MERGE_INFILL",
+      "L2_MERGE_INFILL.001",
+      "L2_MERGE_INFILL"
+    ],
+    "structural_members_removed": false,
+    "existing_unit_services_retained": true
+  },
+  "model": "/media/code/tools/building/b-2/models/05_future_merge.blend",
+  "preview": "/media/code/tools/building/b-2/previews/05_future_merge.png"
+}

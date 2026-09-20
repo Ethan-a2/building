@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="1200" height="780" fill="#f5f7f7"/>
+<style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#193747} .small{font-size:17px}</style>
+<text x="40" y="51" font-size="29" style="fill:#193747">13 / 先能住，再逐户完善</text>
+<text x="40" y="85" font-size="17" style="fill:#667780">屋面、外壳、防水保温和公共安全先完成；减少返工比晚买家具更值钱</text>
+<rect x="85" y="125" width="990" height="85" rx="8" fill="#e4efed" stroke="#b5c5ca" stroke-width="2"/>
+<text x="101" y="156" font-size="22" style="fill:#193747">P0 现场与设计</text>
+<text x="101" y="190" font-size="18" style="fill:#667780">测量 / 出口 / 两层结构 / 完成面标高</text>
+<path d="M1100 165L1100 270" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="85" y="235" width="990" height="85" rx="8" fill="#e4efed" stroke="#b5c5ca" stroke-width="2"/>
+<text x="101" y="266" font-size="22" style="fill:#193747">P1 一次完成外壳</text>
+<text x="101" y="300" font-size="18" style="fill:#667780">基础主体 / 屋面 / 门窗 / 保温 / 公共防护</text>
+<path d="M1100 275L1100 380" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="85" y="345" width="990" height="85" rx="8" fill="#e4efed" stroke="#b5c5ca" stroke-width="2"/>
+<text x="101" y="376" font-size="22" style="fill:#193747">P2 首户入住</text>
+<text x="101" y="410" font-size="18" style="fill:#667780">水电污水 / 厕所厨房 / 采暖 / 照明 / 基本饰面</text>
+<path d="M1100 385L1100 490" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="85" y="455" width="990" height="85" rx="8" fill="#eee9df" stroke="#b5c5ca" stroke-width="2"/>
+<text x="101" y="486" font-size="22" style="fill:#193747">P3 其余户逐户装修</text>
+<text x="101" y="520" font-size="18" style="fill:#667780">同型号设备 / 独立阀表 / 分区调试</text>
+<path d="M1100 495L1100 600" fill="none" stroke="#268b87" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="85" y="565" width="990" height="85" rx="8" fill="#eee9df" stroke="#b5c5ca" stroke-width="2"/>
+<text x="101" y="596" font-size="22" style="fill:#193747">P4 多年后合户</text>
+<text x="101" y="630" font-size="18" style="fill:#667780">拆指定填充 / 修饰面 / 保留分区设备</text>
+<text x="90" y="710" font-size="18" style="fill:#193747">可延期：影壁装饰、全院精铺、高档橱柜、景观；不可延期：入住区排水、防冻、扶手和电气保护。</text>
+<text x="40" y="758" font-size="15" style="fill:#667780">B-2 · R1 / 概念深化与施工交底准备 · 图示不替代测量、结构和专项设计</text>
+</svg>

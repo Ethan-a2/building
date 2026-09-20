@@ -1,0 +1,14 @@
+{
+  "stage": "02_two_households",
+  "scene": "R1_02 Two floors / exploded presentation",
+  "objects": 913,
+  "checks": {
+    "bed_count": 8,
+    "merge_infill_parts": 4,
+    "upper_floor_slab_opening": true,
+    "no_second_floor_exterior_front_door": true,
+    "bathroom_reference_depth_m": 1.9499999999999993
+  },
+  "model": "/media/code/tools/building/b-2/models/02_two_households.blend",
+  "preview": "/media/code/tools/building/b-2/previews/02_two_households.png"
+}
