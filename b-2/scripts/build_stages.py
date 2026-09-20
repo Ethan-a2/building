@@ -524,6 +524,8 @@ def main(stage=None):
         raise ValueError('North-south dimensions do not close')
     if P['width_m'] != 12.6 or P['house_depth_m'] != 13:
         raise ValueError('Base model footprint changed: remodel base explicitly, do not silently scale')
+    if FLOOR != 3.4:
+        raise ValueError('Changing storey height requires redesigning the base staircase and finished levels')
     selected = [stage] if stage else range(1,6)
     if not globals().get('B2_BASE_LOADED'):
         # Separate processes make each file reproducible and preserve the live UI.

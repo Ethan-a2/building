@@ -1,0 +1,234 @@
+{
+  "revision": "R1-2026-09-20",
+  "validation_scope": "asset integrity, local links and model-stage invariants; not engineering approval",
+  "checks": {
+    "dimension_chain_m": 19,
+    "markdown_local_links": 34,
+    "svg_diagrams": 14,
+    "blender_stages": 5,
+    "stage_previews": 6,
+    "bed_count_two_floors": 8
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 112,
+      "sha256": "ab429eb45e0c168aebb06d8a9f70eee4ae4d8d0aa4f16578ac87a9082a8d4bd8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 66,
+      "sha256": "0f6fe9d7e90271db3f3e1be4d430b46870164975c4d93fd4537fa8cbd12dfe58"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4506,
+      "sha256": "414286382693b11178a8bc9198c06e59defa2a1f0bc013f533971cc50b969c01"
+    },
+    {
+      "path": "b-2.jpg",
+      "bytes": 4685830,
+      "sha256": "b0099a004ecfbdc9b128bffc8ba0c488245fadf3957f19ef7c05ae95c55438ea"
+    },
+    {
+      "path": "b-2_axonometric.png",
+      "bytes": 2800950,
+      "sha256": "42fc17187fac19750f251ced29b404e99907ae4fe3cf47e3a711752cf3772568"
+    },
+    {
+      "path": "b-2_model.blend",
+      "bytes": 3994332,
+      "sha256": "c0176351ba735a99b109cf234cdd23676037ee0ff3331144ebb909a4d30f7bfd"
+    },
+    {
+      "path": "b-2_plan.png",
+      "bytes": 2494337,
+      "sha256": "d2b2f78c735228f521dc9a55d64b23198f17768dfbef78620ab6e269aa7ac8fd"
+    },
+    {
+      "path": "design/figures/01_site.svg",
+      "bytes": 3624,
+      "sha256": "fb76814dc261d7928e20ffbe7ef07da835d2a5135a1d80060fbfeb20af4f08d8"
+    },
+    {
+      "path": "design/figures/02_levels.svg",
+      "bytes": 2806,
+      "sha256": "b66813439fadf4c4a5bee3d0ce807cf799fe69cbae60755bc18dfebd5cd3d174"
+    },
+    {
+      "path": "design/figures/03_drainage.svg",
+      "bytes": 4443,
+      "sha256": "1a882edae59ccebbfcfcf78315ff68de9aadd1b042d93d94c963cbfec9285870"
+    },
+    {
+      "path": "design/figures/04_plan.svg",
+      "bytes": 4965,
+      "sha256": "0ea40dd9fa6276c204e3f5b12f5362c2545d00b61c78389fb552910195cf7be0"
+    },
+    {
+      "path": "design/figures/05_stack.svg",
+      "bytes": 3462,
+      "sha256": "cb3487c9efa6abce95cc86da12e86cb759e20e6cdaa4c626808d78d65afa30d4"
+    },
+    {
+      "path": "design/figures/06_merge.svg",
+      "bytes": 2689,
+      "sha256": "04b7568f9601697497afdea394972b6a865d6d66a803f345ed3584a4a81bc34b"
+    },
+    {
+      "path": "design/figures/07_services.svg",
+      "bytes": 4411,
+      "sha256": "cf1aa99c56fa149afea6ebc0a3de06ef9735699d930dd4113800309aa478ba96"
+    },
+    {
+      "path": "design/figures/08_heating.svg",
+      "bytes": 3352,
+      "sha256": "1e5083e20c6cd8e6915cd37c3e553e62281652ea850837a2147769dabbd21da8"
+    },
+    {
+      "path": "design/figures/09_roof.svg",
+      "bytes": 2412,
+      "sha256": "6ecc8bcd7346bf259c0f94d9f03c5331f2e46803e72b66be1fa88aa0154687f6"
+    },
+    {
+      "path": "design/figures/10_ground.svg",
+      "bytes": 2719,
+      "sha256": "aa7025166bfd0cb5548e85438421dad8fe9c711ae04d34038aa81289be03d6ac"
+    },
+    {
+      "path": "design/figures/11_bath.svg",
+      "bytes": 3016,
+      "sha256": "1a2a0ab9a18dbdea92c891ecd21dc396fd12400264a2c13dc304f76af9497028"
+    },
+    {
+      "path": "design/figures/12_window.svg",
+      "bytes": 2358,
+      "sha256": "07b53f1adefc84186cae933eacdf3ac844b59b1edc4324766f280153e3d27b94"
+    },
+    {
+      "path": "design/figures/13_phasing.svg",
+      "bytes": 2988,
+      "sha256": "0dc4368efc766c3e2a1bb8b1886231241e157d19b8f443a40724dd3205916c33"
+    },
+    {
+      "path": "design/figures/14_sequence.svg",
+      "bytes": 4026,
+      "sha256": "89c54b5bf28c4ea2637bd623c0cb3aa03a11d006bbc8abc105b99032ec8de518"
+    },
+    {
+      "path": "design/parameters.json",
+      "bytes": 1014,
+      "sha256": "b9714ce6bb38db7a887936ede9d55f9fbc65a8d411eb3c9390e0d83738af9c1d"
+    },
+    {
+      "path": "design/报价对比模板.csv",
+      "bytes": 2335,
+      "sha256": "2657df1eb77cd56fa05fd611e77ddf35b5dfae07baf3ae5721ccb10fc1211a78"
+    },
+    {
+      "path": "design/现场测量记录模板.csv",
+      "bytes": 1120,
+      "sha256": "c028548e2f1bce2de2c795595132744cbf45a106aa657bc155b11a24c94e2ceb"
+    },
+    {
+      "path": "design/设计与施工准备说明.md",
+      "bytes": 35294,
+      "sha256": "2ba93d3e9d7546db9b5a839854ffb1e4f5a4b2292c5b08ac6efd149fae757b9f"
+    },
+    {
+      "path": "models/01_site_drainage.blend",
+      "bytes": 21038208,
+      "sha256": "408d5ade9ba9410297354d547f0f1cd3b24abeb3b9c7823ab2786d4aea501681"
+    },
+    {
+      "path": "models/01_site_drainage.json",
+      "bytes": 374,
+      "sha256": "9f372b36d83e775c5a9a697c5c02cd3d134ecad4088202e477d3fa0f2a745212"
+    },
+    {
+      "path": "models/02_two_households.blend",
+      "bytes": 25882980,
+      "sha256": "5c1028bd9b031a589c269d67618f6399df82e8c5180a598c29f926bc7d47bf62"
+    },
+    {
+      "path": "models/02_two_households.json",
+      "bytes": 470,
+      "sha256": "647726fe3b85045a7787a7dd976edfb6ce75d2c0b9e3b1c53c60bc46dbcf2cb6"
+    },
+    {
+      "path": "models/03_exposed_services.blend",
+      "bytes": 26929404,
+      "sha256": "f6d3da3294195dc6e0668648d0954c209e336d131efe50d12bd6e059616a7fbb"
+    },
+    {
+      "path": "models/03_exposed_services.json",
+      "bytes": 395,
+      "sha256": "b8470938877f2c001ff70f3f2636ab66d5b835211eb71b7d14c2927e43d033b6"
+    },
+    {
+      "path": "models/04_envelope_roof.blend",
+      "bytes": 26016480,
+      "sha256": "4fc28f824f3571d79d126b9384e045e8bd476daa59e777676dc59ce788ec0d41"
+    },
+    {
+      "path": "models/04_envelope_roof.json",
+      "bytes": 413,
+      "sha256": "a154ff22fa7b683b67a5943b29b1248ddcdf7230c6d3ba7d443e6acb6ab5ed43"
+    },
+    {
+      "path": "models/05_future_merge.blend",
+      "bytes": 25916796,
+      "sha256": "2538ded8e84ce1b16225b7574ce62dfa4d148d29a66de13c0b731c1e28d9b039"
+    },
+    {
+      "path": "models/05_future_merge.json",
+      "bytes": 497,
+      "sha256": "5a2cdd8a9261a81acad78cb70770866d57867215868af6666c9c803bcd5150e5"
+    },
+    {
+      "path": "previews/01_site_drainage.png",
+      "bytes": 2217032,
+      "sha256": "1e8816f5b9e24a9dff3e41e5c4d979bff1dce5a940e6ddadd39848fa302124cd"
+    },
+    {
+      "path": "previews/02_ground_plan.png",
+      "bytes": 2168890,
+      "sha256": "7fa4ccee768a82496b15bbff14f756c6e66486eea8fbbeef77cc8daab658fc68"
+    },
+    {
+      "path": "previews/02_two_households.png",
+      "bytes": 2441288,
+      "sha256": "9a82e851de599d7751c0072b3f581aa4bf23711a3235600932bd9270534c3249"
+    },
+    {
+      "path": "previews/03_exposed_services.png",
+      "bytes": 2462959,
+      "sha256": "35c60d28e5e0aff91e581d5e9b5ed4852bd48994fedeba175ebe2c024013bb99"
+    },
+    {
+      "path": "previews/04_envelope_roof.png",
+      "bytes": 2233270,
+      "sha256": "0bdeb9f01bbd77a0acea7ec855f0ea73b8fee85b224fb1aefe234a2a9dfe2ae5"
+    },
+    {
+      "path": "previews/05_future_merge.png",
+      "bytes": 2443063,
+      "sha256": "a59fed9a576112ae68f791a59006a20df300304e22940994bdbb44531f7687da"
+    },
+    {
+      "path": "scripts/build_stages.py",
+      "bytes": 28012,
+      "sha256": "0a0d98bf76aff74ab7579da593a93f30d1206e645d661593ed602b3588e0dd0c"
+    },
+    {
+      "path": "scripts/make_figures.py",
+      "bytes": 15846,
+      "sha256": "bedb6184c2d9dba1551eb671dded12e4839e8509d47b7032a664f9582e89add6"
+    },
+    {
+      "path": "scripts/validate_assets.py",
+      "bytes": 3371,
+      "sha256": "1448484c6edd86ad261ce20d2c8715028e461eb17d26d78e67a1a47992e6106a"
+    }
+  ]
+}

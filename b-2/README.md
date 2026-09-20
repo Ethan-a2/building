@@ -16,7 +16,9 @@
 | `models/03_exposed_services.blend` | 四户与公共部分的管线、供暖路径示意 |
 | `models/04_envelope_roof.blend` | 全高墙、外维护与简单双坡屋面示意 |
 | `models/05_future_merge.blend` | 两层预留连接口打开后的合户示意 |
-| `previews/*.png` | 各阶段渲染图及原方案参考 |
+| `previews/*.png` | 各阶段渲染图与新一层平面预览 |
+| `design/现场测量记录模板.csv` | 道路、宅地、邻房及出口标高的现场记录空表 |
+| `design/报价对比模板.csv` | 初步工程量及分项报价填写表 |
 | `scripts/build_stages.py` | 从保留的原模型重建阶段文件的 Blender Python 脚本 |
 | `scripts/make_figures.py` | 重新生成中文SVG图 |
 | `scripts/validate_assets.py` | 检查链接、模型阶段清单、尺寸总和和资产哈希 |
@@ -31,6 +33,7 @@
 3. `Upper walls` 集合默认关闭，用于剖切；全高展示见阶段04。
 4. 阶段03管线是路线示意，没有管径计算和坡度设计；阶段01地形是坡向示意，没有替代实测标高。
 5. 改 `design/parameters.json` 后运行建模脚本；脚本以原一层模型为基底，仅支持脚本明示的参数。宽度、总进深或原始房间分区大改仍需同步修改原模型，不能仅改JSON自动重排。
+6. 层间高目前固定为原楼梯对应的3.4m。若调整层高，应同时重新设计踏步、平台与完成面；脚本会阻止只改楼层偏移而留下旧楼梯。
 
 ## 重建
 
@@ -43,16 +46,16 @@ exec(compile(open('/media/code/tools/building/b-2/scripts/build_stages.py', enco
 也可用同版本 Blender 后台执行（本版验证版本3.6.23）：
 
 ```bash
-blender --background --python scripts/build_stages.py
+/opt/blender-3.6.23-linux-x64/blender --background --python scripts/build_stages.py
 python3 scripts/make_figures.py
 python3 scripts/validate_assets.py
 ```
 
-重建会更新 `models/`、`previews/` 和清单，先提交或另存手工修改的阶段文件。原始 `b-2_model.blend` 不会被脚本覆盖。
+重建采用独立 Blender 后台进程，每阶段从指定源文件开始，避免打断正在编辑的窗口。会更新 `models/`、`previews/`；运行校验脚本会更新清单。先提交或另存手工修改的阶段文件。原始 `b-2_model.blend` 不会被脚本覆盖。
 
 ## Git
 
-沿用上级 `/media/code/tools/building` 已有仓库。本次范围限 `b-2`。可编辑 `.blend`、脚本、参数、Markdown、SVG及预览均实际入库；文件规模较小，采用普通Git二进制跟踪，无外部LFS依赖。旧的已跟踪 `b-2_model.blend1` 原样保留，新产生备份忽略。
+沿用上级 `/media/code/tools/building` 已有仓库。本次范围限 `b-2`。可编辑 `.blend`、脚本、参数、Markdown、SVG及预览均实际入库；单个模型约21–26MB（含打包字体），采用普通Git二进制跟踪，无外部LFS依赖。原始 `b-2_model.blend1` 原样保留；已有版本记录中的阶段备份继续保留，未跟踪的新备份由`.gitignore`忽略。资产校验清单只统计主文件，不把备份当正式阶段成果。
 
 ```bash
 git -C /media/code/tools/building status --short -- b-2
