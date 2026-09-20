@@ -19,7 +19,7 @@ def main():
     assert p['width_m'] == 12.6
     assert abs(p['house_depth_m']+p['north_setback_m']+p['south_court_m']-19) < 1e-6
     checked_links = 0
-    for doc in [ROOT/'README.md', ROOT/'design/设计与施工准备说明.md']:
+    for doc in [ROOT/'README.md', *sorted((ROOT/'design').rglob('*.md'))]:
         text = doc.read_text(encoding='utf-8')
         for ref in re.findall(r'\]\(([^)]+)\)', text):
             if ref.startswith(('http:','https:','#')):
