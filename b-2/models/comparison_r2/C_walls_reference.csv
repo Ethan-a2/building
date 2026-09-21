@@ -1,0 +1,39 @@
+﻿floor,wall,external,reference_length_m,thickness_m,gross_area_m2,openings_area_m2,note
+1,South facade,True,12.6,0.24,40.32,17.688,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Side exterior,True,13.0,0.24,41.6,3.362,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Side exterior,True,13.0,0.24,41.6,3.362,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,North facade,True,12.6,0.24,40.32,14.851,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,South stair side,False,5.2,0.16,16.64,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Stair north enclosure,False,2.7,0.16,8.64,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Central living divider,False,5.2,0.16,16.64,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Central middle south,False,0.9,0.16,2.88,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Central middle north,False,5.4,0.16,17.28,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,MERGE_INFILL,False,1.5,0.16,4.8,3.6,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Kitchen south partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Kitchen bathroom partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Service corridor side,False,4.0,0.16,12.8,4.4,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Kitchen south partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Kitchen bathroom partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,Service corridor side,False,4.0,0.16,12.8,4.4,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,North bedroom front,False,12.6,0.16,40.32,8.8,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,North bedroom divider,False,3.8,0.16,12.16,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+1,North bedroom divider,False,3.8,0.16,12.16,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,South facade,True,12.6,0.24,40.32,17.688,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Side exterior,True,13.0,0.24,41.6,3.362,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Side exterior,True,13.0,0.24,41.6,3.362,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,North facade,True,12.6,0.24,40.32,14.851,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,South stair side,False,5.2,0.16,16.64,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Stair north enclosure,False,2.7,0.16,8.64,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Central living divider,False,5.2,0.16,16.64,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Central middle south,False,0.9,0.16,2.88,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Central middle north,False,5.4,0.16,17.28,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,MERGE_INFILL,False,1.5,0.16,4.8,3.6,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Kitchen south partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Kitchen bathroom partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Service corridor side,False,4.0,0.16,12.8,4.4,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Kitchen south partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Kitchen bathroom partition,False,2.6,0.16,8.32,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,Service corridor side,False,4.0,0.16,12.8,4.4,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,North bedroom front,False,12.6,0.16,40.32,8.8,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,North bedroom divider,False,3.8,0.16,12.16,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整
+2,North bedroom divider,False,3.8,0.16,12.16,0,参考几何，墙交接重复、梁柱占位与合同计量扣减需最终图纸调整

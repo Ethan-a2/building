@@ -1,0 +1,28 @@
+{
+  "id": "B",
+  "name": "西南楼梯＋二层南连廊",
+  "building_width_m": 12.6,
+  "house_depth_m": 13.0,
+  "north_setback_m": 1.0,
+  "south_court_m": 5,
+  "dimension_chain_m": 19.0,
+  "body_projection_per_floor_m2": 163.8,
+  "body_projection_two_floors_m2": 327.6,
+  "stair_reference_footprint_per_floor_m2": 14.04,
+  "upper_gallery_reference_area_m2": 9.31,
+  "upper_gallery_length_m": 7.45,
+  "upper_gallery_reference_width_m": 1.25,
+  "north_approach_cover_option_m2": 0,
+  "south_living_reference_widths_W_E_m": [
+    3.6,
+    6.3
+  ],
+  "north_guest_rooms_per_floor": 4,
+  "south_convertible_rooms_per_floor": 2,
+  "structural_design_complete": false,
+  "common_area_note": "楼梯参考投影已包含在主体投影内，禁止另加；连廊单列，正式建筑面积按当地计量规则核算",
+  "wall_reference_gross_area_two_floors_m2": 708.48,
+  "wall_opening_area_two_floors_m2": 120.93,
+  "window_reference_area_two_floors_m2": 62.84,
+  "objects": 634
+}

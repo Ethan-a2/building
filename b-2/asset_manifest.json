@@ -1,19 +1,27 @@
 {
-  "revision": "R1-2026-09-20",
+  "revision": "R2-2026-09-20",
   "validation_scope": "asset integrity, local links and model-stage invariants; not engineering approval",
   "checks": {
     "dimension_chain_m": 19,
-    "markdown_local_links": 38,
+    "markdown_local_links": 66,
     "svg_diagrams": 14,
     "blender_stages": 5,
     "stage_previews": 6,
-    "bed_count_two_floors": 8
+    "bed_count_two_floors": 8,
+    "comparison_r2": {
+      "editable_options": 4,
+      "renders": 12,
+      "contact_sheets": 3,
+      "quote_rows": 28,
+      "upper_south_doors_have_gallery": true,
+      "setbacks_outside_12_6m_building": true
+    }
   },
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 112,
-      "sha256": "ab429eb45e0c168aebb06d8a9f70eee4ae4d8d0aa4f16578ac87a9082a8d4bd8"
+      "bytes": 130,
+      "sha256": "76f0dac9aeb838c10b2b17a20d71e6395dbd5e2db59430cebacba824d25065ab"
     },
     {
       "path": ".gitignore",
@@ -22,8 +30,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5034,
-      "sha256": "9e22508fa958521d541eeb5b479a1eccd0475539b9eb75067aba1a54f4073310"
+      "bytes": 6309,
+      "sha256": "27eda5c072adaba0d616d10a9788c9c0cb3c3b410f75314133780cc8a25fd416"
     },
     {
       "path": "b-2.jpg",
@@ -46,6 +54,36 @@
       "sha256": "d2b2f78c735228f521dc9a55d64b23198f17768dfbef78620ab6e269aa7ac8fd"
     },
     {
+      "path": "design/comparison_r2/options.json",
+      "bytes": 2202,
+      "sha256": "82f6ed4db43b1799103d179cc25b993c07e981fa708d21ee526c6d28510b1a3c"
+    },
+    {
+      "path": "design/comparison_r2/四方案分项报价表.csv",
+      "bytes": 2608,
+      "sha256": "a151609a8cc40fc5f9480c90628ed469e63e7b7d6612bc2ac82c4ae9cb1f9ed6"
+    },
+    {
+      "path": "design/comparison_r2/恢复实际层间关系.py",
+      "bytes": 664,
+      "sha256": "3426ac85b6db5e1d8fc59a43d4b3ce3ecdd148bfc705fa79e2305eab56f4ce90"
+    },
+    {
+      "path": "design/comparison_r2/报价比选册.html",
+      "bytes": 11862,
+      "sha256": "8ed13ce9419fe17a57b1d45b4a51e7aa901a08095d017260fc8a9508aaa8d860"
+    },
+    {
+      "path": "design/comparison_r2/报价比选册.pdf",
+      "bytes": 18606266,
+      "sha256": "ac66ba4f80b3dc3562fc67a51a3d03914ed24613ed57b5897071ed808b106d57"
+    },
+    {
+      "path": "design/comparison_r2/方案对比与报价说明.md",
+      "bytes": 12593,
+      "sha256": "c848e8b6c086d83d045cdb3b85edd7311483ce01ddc0cbeb204bca12b7292c5a"
+    },
+    {
       "path": "design/discussions/01_高价值投入优先级.md",
       "bytes": 3568,
       "sha256": "b2a8ffc26213b4f140950e6ec82480cac733f7a17259cd42cca3f8eec35a53e2"
@@ -54,6 +92,11 @@
       "path": "design/discussions/02_采光约束与平面改进评估.md",
       "bytes": 10767,
       "sha256": "253b0a0101f1b78ea9dfeced09a5bbc5fa45b740890e2f32db90833558c5207e"
+    },
+    {
+      "path": "design/discussions/03_已确认条件与R2四方案.md",
+      "bytes": 2469,
+      "sha256": "7531644c320e1c7da9d04606f10d4836e9a3ea0eb7c5126dfacedf3cce6ad369"
     },
     {
       "path": "design/figures/01_site.svg",
@@ -142,8 +185,8 @@
     },
     {
       "path": "design/设计与施工准备说明.md",
-      "bytes": 35773,
-      "sha256": "e0a87b713244fabec5c0790b14019206cf721cbb23479ad8537c33cdfd1aa279"
+      "bytes": 35930,
+      "sha256": "f240f021b003041f5efdcdb4131f618a31bd425dfbd297d8ad6380ccfdde3ffd"
     },
     {
       "path": "models/01_site_drainage.blend",
@@ -196,6 +239,86 @@
       "sha256": "5a2cdd8a9261a81acad78cb70770866d57867215868af6666c9c803bcd5150e5"
     },
     {
+      "path": "models/comparison_r2/A_comparison.blend",
+      "bytes": 24025452,
+      "sha256": "ffec4c5bd0fc58049062539a5440b97ab9c3836241abf54b28705d1983bf0f30"
+    },
+    {
+      "path": "models/comparison_r2/A_openings_reference.csv",
+      "bytes": 1528,
+      "sha256": "7538722da066cd24bc01f06055dc76473ae08697b6f3ca727cb02aa23b09c760"
+    },
+    {
+      "path": "models/comparison_r2/A_quantities.json",
+      "bytes": 965,
+      "sha256": "8d87a1a3548dc3661c5d21f4ce02d0ede3f978b0ae2e7f32445e5162346fee24"
+    },
+    {
+      "path": "models/comparison_r2/A_walls_reference.csv",
+      "bytes": 5180,
+      "sha256": "07513d67174713ed08e82f1d89ef07ced110a25bbc7c5352c3dad76dd6bb7c4f"
+    },
+    {
+      "path": "models/comparison_r2/B_comparison.blend",
+      "bytes": 24071884,
+      "sha256": "7d858c3e16443d11dafbf21f2564297caa723fc5a5c7c3792b933f28ffd5944a"
+    },
+    {
+      "path": "models/comparison_r2/B_openings_reference.csv",
+      "bytes": 1510,
+      "sha256": "5acadcc746952dd82d10902ab67cfa0b3ab9250a52b82f4e4390c0718834e277"
+    },
+    {
+      "path": "models/comparison_r2/B_quantities.json",
+      "bytes": 978,
+      "sha256": "fdd06991be09ac4e463bd4a0b09bb2a621fbb621c7c7272d8691cd328238a7f2"
+    },
+    {
+      "path": "models/comparison_r2/B_walls_reference.csv",
+      "bytes": 5176,
+      "sha256": "4ebf994209d4b5b49e9571415427a37d5554e293a89db40e8558c697bf8da3c9"
+    },
+    {
+      "path": "models/comparison_r2/C_comparison.blend",
+      "bytes": 24071884,
+      "sha256": "4b911c967191a2575d9ba320d3a0605e4794fe153511bf2bee5ee7631e2f819c"
+    },
+    {
+      "path": "models/comparison_r2/C_openings_reference.csv",
+      "bytes": 1510,
+      "sha256": "93518a4aae925f776e30f0e0a8e133459af69df85a0dcdf83041c1dd6fa188eb"
+    },
+    {
+      "path": "models/comparison_r2/C_quantities.json",
+      "bytes": 978,
+      "sha256": "8c1a1c2eb22dfa66208cae40c6d60ed06ffb57c5bd28f0b61789628fdcccca14"
+    },
+    {
+      "path": "models/comparison_r2/C_walls_reference.csv",
+      "bytes": 5176,
+      "sha256": "4ebf994209d4b5b49e9571415427a37d5554e293a89db40e8558c697bf8da3c9"
+    },
+    {
+      "path": "models/comparison_r2/D_comparison.blend",
+      "bytes": 24074264,
+      "sha256": "d52a66294bca43fe48c9aa54fb15821b1f6c5505ab8619f639f2c2409e52cb7e"
+    },
+    {
+      "path": "models/comparison_r2/D_openings_reference.csv",
+      "bytes": 1524,
+      "sha256": "89956549df762a7e9f63225380b04d2807dae20db6b111f9a60104abf7d91c1c"
+    },
+    {
+      "path": "models/comparison_r2/D_quantities.json",
+      "bytes": 977,
+      "sha256": "71864be1f4c572e99bfaec837663f5e7de3887a8202ef830ad017185c87e2037"
+    },
+    {
+      "path": "models/comparison_r2/D_walls_reference.csv",
+      "bytes": 5514,
+      "sha256": "fbe0e3b68d920107822de057af1f0868ead72caf29fe8222d34afef369990122"
+    },
+    {
       "path": "previews/01_site_drainage.png",
       "bytes": 2217032,
       "sha256": "1e8816f5b9e24a9dff3e41e5c4d979bff1dce5a940e6ddadd39848fa302124cd"
@@ -226,6 +349,86 @@
       "sha256": "a59fed9a576112ae68f791a59006a20df300304e22940994bdbb44531f7687da"
     },
     {
+      "path": "previews/comparison_r2/A_axon.png",
+      "bytes": 2787198,
+      "sha256": "1c8d39127b89d5e0487e6e935a601f080dfd745803b7a489c1f090c6427af1cf"
+    },
+    {
+      "path": "previews/comparison_r2/A_floor1.png",
+      "bytes": 2357809,
+      "sha256": "619841b8053a201fa153994132a0e2812b704a5e38522283fa74fc512a80bbaf"
+    },
+    {
+      "path": "previews/comparison_r2/A_floor2.png",
+      "bytes": 2425781,
+      "sha256": "df838d25f0ef977aa183e711f8f833cef1f8db63f7c82b4e53ca9db0cc3b2f32"
+    },
+    {
+      "path": "previews/comparison_r2/B_axon.png",
+      "bytes": 2797583,
+      "sha256": "ea41de0e6cefcecca19cceb6467b9defeb6f592c190d25482a717f2063f95ebb"
+    },
+    {
+      "path": "previews/comparison_r2/B_floor1.png",
+      "bytes": 2353318,
+      "sha256": "603e998ef055b143a4e1866839287ff0674bfdeaba7ae8bed71938856e0f4e59"
+    },
+    {
+      "path": "previews/comparison_r2/B_floor2.png",
+      "bytes": 2450315,
+      "sha256": "366e425e571bb02c7b3fe5ff8c85ddd90eed95760cd07527db1ade6e4b72b2cf"
+    },
+    {
+      "path": "previews/comparison_r2/C_axon.png",
+      "bytes": 2810137,
+      "sha256": "6b3a3b98a6605f6e52e679dff385bd8ff04d895be89dd627f73f5ec7c819a1b2"
+    },
+    {
+      "path": "previews/comparison_r2/C_floor1.png",
+      "bytes": 2359490,
+      "sha256": "d154054209a509c382e904d0992dc15dd47bd1ce2c7b75b77cea267006d1e7e0"
+    },
+    {
+      "path": "previews/comparison_r2/C_floor2.png",
+      "bytes": 2455836,
+      "sha256": "b80b1d3d9bcee66747d78f10aa1f4c55f5cc1df9441558ba7098835aeba11fcc"
+    },
+    {
+      "path": "previews/comparison_r2/D_axon.png",
+      "bytes": 2762991,
+      "sha256": "bb032808abab99ed6d2e8853a70888cf8b9d6d0bef623541c64e3cb8f720ae46"
+    },
+    {
+      "path": "previews/comparison_r2/D_floor1.png",
+      "bytes": 2364010,
+      "sha256": "7a86686bdba9cd5e5fb61bb2c4c4a4b35046deae438559e1599093c6f3f495b3"
+    },
+    {
+      "path": "previews/comparison_r2/D_floor2.png",
+      "bytes": 2429817,
+      "sha256": "7420840e6028e2e9d42c7280ef22b47921434858baa31d6b298fe23c0198d372"
+    },
+    {
+      "path": "previews/comparison_r2/compare_axon.png",
+      "bytes": 3159293,
+      "sha256": "29c47315985df48a0a9fabc256fcb2ee953edf12282eacfe8632605727017102"
+    },
+    {
+      "path": "previews/comparison_r2/compare_floor1.png",
+      "bytes": 2508147,
+      "sha256": "19d4dfb3f646550304d12eb83fed93daae4c431ac9e59fb59d97922dd6f68a47"
+    },
+    {
+      "path": "previews/comparison_r2/compare_floor2.png",
+      "bytes": 3059214,
+      "sha256": "6655af1a24ad2e064c046fc699cf162ba9f5f8986714f183bef3143573a99a18"
+    },
+    {
+      "path": "scripts/build_comparison_r2.py",
+      "bytes": 29153,
+      "sha256": "d11ec1cae1f94532ff78896417050b9a63090464c6c7980db49f7c7aad8cf04b"
+    },
+    {
       "path": "scripts/build_stages.py",
       "bytes": 28012,
       "sha256": "0a0d98bf76aff74ab7579da593a93f30d1206e645d661593ed602b3588e0dd0c"
@@ -236,9 +439,14 @@
       "sha256": "bedb6184c2d9dba1551eb671dded12e4839e8509d47b7032a664f9582e89add6"
     },
     {
+      "path": "scripts/package_comparison_r2.py",
+      "bytes": 11132,
+      "sha256": "7792f30bad22953e9ea4dc00f52952aed0a6a03645c97ebeddb4ef4feecee821"
+    },
+    {
       "path": "scripts/validate_assets.py",
-      "bytes": 3365,
-      "sha256": "c8683e81ed10d740b0c15d82412d2282497abf30def6bcf73f9fabb73392e6ec"
+      "bytes": 5711,
+      "sha256": "c45341fc002250a74c56b5a286ba7f6c76013fb2387db75fc4657fb91a5d038c"
     }
   ]
 }

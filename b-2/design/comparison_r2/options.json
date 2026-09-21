@@ -1,0 +1,20 @@
+{
+  "revision": "R2-2026-09-20",
+  "status": "可视化比选与分项询价，非施工放样图",
+  "confirmed": {
+    "building_width_m": 12.6,
+    "setbacks_outside_building": true,
+    "east_setback_m": 0.5,
+    "symmetry_required": false,
+    "south_room_use": "每户南向客厅兼备用卧室，可长期睡眠、适合老人",
+    "avoid_new_mid_west_gate": true
+  },
+  "site_unresolved": ["西北三角空地的实测轮廓、权属和可建范围", "北侧邻房高度与实际遮挡", "合法雨污出口与实测标高", "东南门对外通行权属"],
+  "shared_assumptions": {"floor_to_floor_m": 3.4, "wall_height_m": 3.2, "exterior_wall_m": 0.24, "interior_wall_m": 0.16, "stair_reference_width_m": 2.7, "stair_reference_depth_m": 5.2, "cutaway_height_m": 1.15, "display_explode_m": 5.0},
+  "options": [
+    {"id":"A","name":"南中楼梯优化","house_depth_m":13.0,"north_setback_m":1.0,"south_court_m":5.0,"stair":"center_south","guest_rooms_per_floor":4,"gallery_length_m":0.0,"gallery_width_m":0.0,"merge_y_start_m":6.1,"note":"低成本比较基线；楼梯仍占南向，两户各保留南向起居睡眠空间"},
+    {"id":"B","name":"西南楼梯＋二层南连廊","house_depth_m":13.0,"north_setback_m":1.0,"south_court_m":5.0,"stair":"southwest","guest_rooms_per_floor":4,"gallery_length_m":7.45,"gallery_width_m":1.25,"merge_y_start_m":6.1,"note":"楼梯在主体内；西户南向开间缩小；新增二层公共连廊，不增加道路中段入口"},
+    {"id":"C","name":"东南楼梯＋二层南连廊","house_depth_m":13.0,"north_setback_m":1.0,"south_court_m":5.0,"stair":"southeast","guest_rooms_per_floor":4,"gallery_length_m":7.45,"gallery_width_m":1.25,"merge_y_start_m":6.1,"note":"楼梯在主体内；东户南向开间缩小；楼梯从自家南院进入，不依赖南邻开放通路"},
+    {"id":"D","name":"西北到达＋北中楼梯","house_depth_m":12.5,"north_setback_m":1.5,"south_court_m":5.0,"stair":"center_north","guest_rooms_per_floor":2,"gallery_length_m":0.0,"gallery_width_m":0.0,"merge_y_start_m":5.65,"note":"主体缩短0.5m腾出北侧通道；每户一间北客卧；南向面积更完整；北侧通行与雨雪防护待确认"}
+  ]
+}

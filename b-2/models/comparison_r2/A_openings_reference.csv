@@ -1,0 +1,45 @@
+﻿floor,wall,type,width_m,height_m
+1,South facade,window,3.65,1.93
+1,South facade,door,1.3,2.4
+1,South facade,window,3.65,1.93
+1,Side exterior,window,1.4,1.38
+1,Side exterior,window,1.0,1.43
+1,Side exterior,window,1.4,1.38
+1,Side exterior,window,1.0,1.43
+1,North facade,window,2.04,1.82
+1,North facade,window,2.04,1.82
+1,North facade,window,2.04,1.82
+1,North facade,window,2.04,1.82
+1,South stair side,door,1.05,2.25
+1,South stair side,door,1.05,2.25
+1,MERGE_INFILL,future connection,1.5,2.4
+1,Service corridor side,door,1.0,2.2
+1,Service corridor side,door,1.0,2.2
+1,Service corridor side,door,1.0,2.2
+1,Service corridor side,door,1.0,2.2
+1,North bedroom front,door,1.0,2.2
+1,North bedroom front,door,1.0,2.2
+1,North bedroom front,door,1.0,2.2
+1,North bedroom front,door,1.0,2.2
+2,South facade,window,3.65,1.93
+2,South facade,window,1.3,1.5
+2,South facade,window,3.65,1.93
+2,Side exterior,window,1.4,1.38
+2,Side exterior,window,1.0,1.43
+2,Side exterior,window,1.4,1.38
+2,Side exterior,window,1.0,1.43
+2,North facade,window,2.04,1.82
+2,North facade,window,2.04,1.82
+2,North facade,window,2.04,1.82
+2,North facade,window,2.04,1.82
+2,South stair side,door,1.05,2.25
+2,South stair side,door,1.05,2.25
+2,MERGE_INFILL,future connection,1.5,2.4
+2,Service corridor side,door,1.0,2.2
+2,Service corridor side,door,1.0,2.2
+2,Service corridor side,door,1.0,2.2
+2,Service corridor side,door,1.0,2.2
+2,North bedroom front,door,1.0,2.2
+2,North bedroom front,door,1.0,2.2
+2,North bedroom front,door,1.0,2.2
+2,North bedroom front,door,1.0,2.2

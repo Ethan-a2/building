@@ -2,7 +2,9 @@
 
 **主文档：[设计与施工准备说明 R1](design/设计与施工准备说明.md)**
 
-**最新讨论：[采光约束与平面改进评估](design/discussions/02_采光约束与平面改进评估.md)**。北侧采光差、东侧0.5m预退让且采光差已纳入讨论；楼梯位置与新平面尚未定案，现有模型仍为R1比较基线。
+**最新成果：[R2四方案对比与报价说明](design/comparison_r2/方案对比与报价说明.md) · [可打印报价比选册PDF](design/comparison_r2/报价比选册.pdf)**。
+
+R2已按确认的建筑外宽12.6m、额外退让、南向客厅兼备用卧室制作A/B/C/D四方案。优先比较A南中楼梯与D西北到达北中楼梯；B/C展示角部楼梯及二层连廊的真实代价。R1文件继续保留，最终方案尚未选定。
 
 本版以低成本入住、两层各两户、未来低成本合户、明装可维护管线、防潮保温为目标。固定面宽12.6m，总进深19m；当前保留13m房屋+1m北退让+5m南院。
 
@@ -13,6 +15,10 @@
 | `design/设计与施工准备说明.md` | 详细方案、尺寸、分期、节点、施工顺序、验收与待定事项 |
 | `design/discussions/01_高价值投入优先级.md` | 上轮关键讨论：高价值投入、成果要求与先后顺序 |
 | `design/discussions/02_采光约束与平面改进评估.md` | 新采光条件、楼梯位置比较、房间朝向调整与待确认问题 |
+| `design/discussions/03_已确认条件与R2四方案.md` | 本轮业主确认、比选落实与待决策事项 |
+| `design/comparison_r2/` | 四方案说明、参数、PDF/HTML比选册及报价CSV |
+| `models/comparison_r2/` | A/B/C/D可编辑模型、参考数量、墙表和洞口表 |
+| `previews/comparison_r2/` | 12张方案预览和3张对比总图 |
 | `design/figures/*.svg` | 中文可编辑矢量图，普通浏览器可打开 |
 | `design/parameters.json` | 建模使用的主要概念参数与待确认状态 |
 | `models/01_site_drainage.blend` | 场地坡向、入口、集水与排水条件 |
@@ -31,6 +37,8 @@
 | `b-2_model.blend` | 上一版一层概念模型，保留不覆盖 |
 
 ## 如何编辑
+
+**R2四方案的编辑方式见[专门说明](design/comparison_r2/方案对比与报价说明.md#9-文件及编辑方法)**。南向房间可切换日间沙发与夜间床位，上部墙体、连廊及北通道屋盖分别控制。以下为R1阶段模型说明。
 
 1. 先打开 `models/02_two_households.blend`。二层默认上移5m展示，实际层高关系在对象与集合自定义属性中记录；脚本中 `display_explode_m` 指明展示偏移。**不可从爆炸展示直接量建筑总高。**
 2. `L1_`、`L2_` 分别为两层集合；`MERGE_INFILL` 是将来拆除的非承重填充。
@@ -56,6 +64,17 @@ python3 scripts/validate_assets.py
 ```
 
 重建采用独立 Blender 后台进程，每阶段从指定源文件开始，避免打断正在编辑的窗口。会更新 `models/`、`previews/`；运行校验脚本会更新清单。先提交或另存手工修改的阶段文件。原始 `b-2_model.blend` 不会被脚本覆盖。
+
+R2重建与打包：
+
+```bash
+/media/ext/opt/blender-3.6.23-linux-x64/blender --background --python-exit-code 1 --python scripts/build_comparison_r2.py
+python3 scripts/package_comparison_r2.py
+# PDF可在报价比选册.html中按A3横向打印，或用无头浏览器导出。
+python3 scripts/validate_assets.py
+```
+
+打包脚本使用Pillow和系统Noto CJK字体。模型内已打包字体；其他电脑打开.blend不需要安装同一路径字体。
 
 ## Git
 

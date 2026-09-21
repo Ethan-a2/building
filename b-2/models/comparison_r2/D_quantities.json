@@ -1,0 +1,28 @@
+{
+  "id": "D",
+  "name": "西北到达＋北中楼梯",
+  "building_width_m": 12.6,
+  "house_depth_m": 12.5,
+  "north_setback_m": 1.5,
+  "south_court_m": 5,
+  "dimension_chain_m": 19.0,
+  "body_projection_per_floor_m2": 157.5,
+  "body_projection_two_floors_m2": 315.0,
+  "stair_reference_footprint_per_floor_m2": 14.04,
+  "upper_gallery_reference_area_m2": 0.0,
+  "upper_gallery_length_m": 0.0,
+  "upper_gallery_reference_width_m": 0.0,
+  "north_approach_cover_option_m2": 11.475,
+  "south_living_reference_widths_W_E_m": [
+    6.3,
+    6.3
+  ],
+  "north_guest_rooms_per_floor": 2,
+  "south_convertible_rooms_per_floor": 2,
+  "structural_design_complete": false,
+  "common_area_note": "楼梯参考投影已包含在主体投影内，禁止另加；连廊单列，正式建筑面积按当地计量规则核算",
+  "wall_reference_gross_area_two_floors_m2": 648.96,
+  "wall_opening_area_two_floors_m2": 119.55,
+  "window_reference_area_two_floors_m2": 68.65,
+  "objects": 634
+}

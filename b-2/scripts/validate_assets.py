@@ -7,6 +7,7 @@ import hashlib
 import json
 import re
 import struct
+import csv
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,6 +50,38 @@ def main():
     assert reports[1]['checks']['merge_infill_parts'] == 4
     assert reports[3]['checks']['display_explode_m'] == 0
     assert len(reports[4]['checks']['hidden_infill_parts']) == 4
+    r2_checks = None
+    if (ROOT/'design/comparison_r2/options.json').exists():
+        r2=json.loads((ROOT/'design/comparison_r2/options.json').read_text())
+        assert r2['confirmed']['setbacks_outside_building'] is True
+        totals={}
+        for option in r2['options']:
+            ident=option['id']
+            with (ROOT/f'models/comparison_r2/{ident}_comparison.blend').open('rb') as f:
+                assert f.read(7)==b'BLENDER'
+            q=json.loads((ROOT/f'models/comparison_r2/{ident}_quantities.json').read_text())
+            assert abs(q['dimension_chain_m']-19)<1e-6
+            assert q['south_convertible_rooms_per_floor']==2
+            totals[ident]=q['body_projection_two_floors_m2']
+            for kind in ['floor1','floor2','axon']:
+                with (ROOT/f'previews/comparison_r2/{ident}_{kind}.png').open('rb') as f:
+                    h=f.read(24)
+                assert h[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',h[16:24])==(1600,1600)
+            openings=list(csv.DictReader((ROOT/f'models/comparison_r2/{ident}_openings_reference.csv').open(encoding='utf-8-sig')))
+            south_upper_doors=[r for r in openings if r['floor']=='2' and r['wall']=='South facade' and r['type']=='door']
+            assert len(south_upper_doors)==(3 if ident in 'BC' else 0), 'Upper facade doors must have a public gallery'
+        assert totals=={'A':327.6,'B':327.6,'C':327.6,'D':315.0}
+        for kind in ['floor1','floor2','axon']:
+            assert (ROOT/f'previews/comparison_r2/compare_{kind}.png').exists()
+        quote=ROOT/'design/comparison_r2/四方案分项报价表.csv'
+        rows=list(csv.reader(quote.open(encoding='utf-8-sig')))
+        assert all(len(r)==12 for r in rows)
+        with (ROOT/'design/comparison_r2/报价比选册.pdf').open('rb') as f:
+            assert f.read(5)==b'%PDF-'
+        html=ROOT/'design/comparison_r2/报价比选册.html'
+        for ref in re.findall(r'src="([^"]+)"',html.read_text()):
+            assert (html.parent/ref).resolve().is_file()
+        r2_checks={'editable_options':4,'renders':12,'contact_sheets':3,'quote_rows':len(rows)-1,'upper_south_doors_have_gallery':True,'setbacks_outside_12_6m_building':True}
     files = []
     for file in sorted(ROOT.rglob('*')):
         if not file.is_file() or file.name == 'asset_manifest.json':
@@ -65,6 +98,9 @@ def main():
                           'svg_diagrams':len(figures),'blender_stages':len(reports),
                           'stage_previews':6,'bed_count_two_floors':8},
                 'files':files}
+    if r2_checks:
+        manifest['revision']='R2-2026-09-20'
+        manifest['checks']['comparison_r2']=r2_checks
     (ROOT/'asset_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(manifest['checks'],ensure_ascii=False,indent=2))
     print(f'PASS: {len(files)} assets inventoried with SHA-256')
